@@ -21,6 +21,11 @@ public class Math{
   }  
 
   public int multiply(int a, int b){
+    delay();
     return a*b;
+  }
+  
+  public int add(int a, int b){
+    return a-b;
   }
 }
